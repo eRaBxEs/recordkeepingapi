@@ -1,0 +1,35 @@
+
+###
+POST http://localhost:8080/api/record/income HTTP/1.1
+content-type: application/json
+
+
+{
+    "description" : "January Salary",
+    "amount": 350000
+}
+###
+POST http://localhost:8080/api/record/expense HTTP/1.1
+content-type: application/json
+
+
+{
+    "description" : "school fees",
+    "amount": 25000
+}
+
+
+###
+GET http://localhost:8080/api/record/allexpenses HTTP/1.1
+content-type: application/json
+
+
+###
+GET http://localhost:8080/api/record/allincomes HTTP/1.1
+content-type: application/json
+
+
+###
+GET http://localhost:8080/api/record/balance HTTP/1.1
+content-type: application/json
+###
