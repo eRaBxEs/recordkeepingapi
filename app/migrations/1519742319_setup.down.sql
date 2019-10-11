@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS public.incomes CASCADE;
+DROP TABLE IF EXISTS public.expenses CASCADE;
+DROP TABLE IF EXISTS public.transaction CASCADE;
